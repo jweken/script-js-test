@@ -1,6 +1,6 @@
 body {
-    font-family: "Segoe UI";
-    font-size: 1.2em
+    font-family: "Verdana";
+    font-size: 1.10em
 }
 
 .container {
@@ -17,13 +17,13 @@ body {
 }
 
 .danger {
-    text-align: right;
+    text-align: left;
     margin: 10px 10% 0 10%;
     padding: 10px;
     background-color: rgba(241, 142, 147, 0.36);
     border-style: solid;
     border-color: red;
-    border-width: 0px 0px 0px 10px;
+    border-width: 20px 5px 0px 10px;
 }
 
 .info {
