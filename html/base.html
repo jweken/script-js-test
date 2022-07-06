@@ -10,7 +10,7 @@
 
 <body>
     <div class="container">
-        This file shows some basic elements of HTML and CSS.
+        <h3>This file shows some basic elements of HTML and CSS.</h3>
     </div>
     <div class="container">
         <hr style="height: 4px;background-color:blue;" />
@@ -18,7 +18,7 @@
         <hr style="height: 1px;background-color:red;" />
         <div class="primary">
             <p> created style for this div in site.css<br>
-                class <strong>'primary'</strong>
+                class <strong>'.primary'</strong>
             </p>
         </div>
         <div class="danger">
@@ -45,8 +45,8 @@
             container. Daarom springt deze regel in, en de onderste regel in dit bestand niet.
         </p>
         <p>
-            Dit is een tweede paragraaf in een container. Er is ruimte tussen twee opvolgende paragrafen. Paragrafen
-            hebben tussenruimte, div`s hebben die niet.
+            Dit is een tweede paragraaf in een container. Er is ruimte tussen twee opvolgende paragrafen. <b>Paragrafen
+                hebben tussenruimte, div`s hebben die niet.</b>
         </p>
         <hr style="height: 1px;background-color:red;" />
 
@@ -54,10 +54,12 @@
 
     </div>
     <p>
-        Dit is een paragraaf.
+        Dit is een paragraaf buiten de container.
     </p>
-    <div>Dit is div 1</div>
-    <div>Dit is div 2</div>
+    <div>Dit is div 1 (buiten de container)</div>
+    <div>Dit is div 2 (buiten de container)</div>
+
+    <div class="container">Dit is div 2 (in de container)</div>
 
 
 </body>
