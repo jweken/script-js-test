@@ -1,3 +1,5 @@
 {
-
+  "devDependencies": {
+    "minimist": "^1.2.6"
+  }
 }
