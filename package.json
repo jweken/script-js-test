@@ -1,5 +1,10 @@
 {
+<<<<<<< HEAD
   "dependencies": {
     "minimist": "^1.2.8"
+=======
+  "devDependencies": {
+    "minimist": "^1.2.6"
+>>>>>>> 04d792bea150fe8236a56eb128868d5d45cf6dc9
   }
 }
